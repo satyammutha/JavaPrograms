@@ -1,4 +1,5 @@
 package TQ;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -13,6 +14,8 @@ class Demo {
         al.add(new Emp11(1003, "Mark", 90000, d1));
 
         Collections.sort(al);
+        for (Emp11 ee : al)
+            System.out.println(ee);
     }
-    
+
 }

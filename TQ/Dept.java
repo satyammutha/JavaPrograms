@@ -9,7 +9,7 @@ public class Dept {
         this.dname = dname;
     }
 
-    int getId() {
+    public int getId() {
         return did;
     }
 }

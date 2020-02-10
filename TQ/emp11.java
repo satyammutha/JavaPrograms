@@ -6,7 +6,7 @@ class Emp11 implements Comparable<Emp11> {
     float sal;
     Dept d;
 
-    Emp11(int id,String name,float sal,Dept d) {
+    Emp11(int id, String name, float sal, Dept d) {
         this.id = id;
         this.name = name;
         this.sal = sal;
@@ -16,4 +16,9 @@ class Emp11 implements Comparable<Emp11> {
     public int compareTo(Emp11 e11) {
         return this.d.getId() - e11.d.getId();
     }
+
+    public String toString() {
+        return "Id " + id + " Name " + name;
+    }
+
 }
