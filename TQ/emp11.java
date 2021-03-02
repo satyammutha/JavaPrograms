@@ -18,7 +18,7 @@ class Emp11 implements Comparable<Emp11> {
     }
 
     public String toString() {
-        return "Id " + id + " Name " + name;
+        return "Id:" + id + " Name:" + name + " Salary: " + sal + " Dept Id:" + d.did + " DeptName:" + d.dname;
     }
 
 }
